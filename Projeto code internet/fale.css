@@ -1,0 +1,122 @@
+.fale_conosco{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.chat_imagem{
+
+height: 200px;
+
+}
+
+.chat{
+
+text-align: center;
+padding-top: 10px;
+margin: 10px 10px 10px 10px;
+width: 40%;
+border: 5px solid #3d1590;
+border-radius: 20px;
+color: #262526;
+
+}
+
+.chat:hover{
+
+background-color: #b696e1;
+box-shadow: 10px 10px 40px 10px #52e0e1;
+
+}
+
+.chat h2{
+
+padding-top: 10px;
+font-size: 2em;
+
+}
+
+.chat h4{
+
+padding-top: 10px;
+font-size: 1.2em;
+    
+ }
+
+.informe{
+
+margin: 20px;
+height: 50px;
+width: 50%;
+border: 5px solid #3d1590;
+border-radius: 20px;
+
+}
+
+.enviar{
+
+margin: 10px;
+height: 50px;
+width: 50%;
+border: 5px solid #3d1590;
+border-radius: 20px;
+color: #F8F9FF;
+font-size: 1.3em;
+font-weight: bold;
+cursor: pointer;
+background-color: #3d1590;
+
+}
+
+.enviar:hover{
+
+background-color: #52e0e1;
+color: #3d1590;
+
+}
+
+    @media(max-width: 600px){
+
+        .chat{
+
+            width: 90%;
+
+        }
+
+        .informe{
+
+            width: 90%;
+
+        }
+
+        .enviar{
+
+            width: 80%;
+
+        }
+
+    }
+
+    @media(max-width: 1024px){
+
+        .chat{
+
+            width: 90%;
+
+        }
+
+        .informe{
+
+            width: 60%;
+
+        }
+
+        .enviar{
+
+            width: 50%;
+
+        }
+
+    }
